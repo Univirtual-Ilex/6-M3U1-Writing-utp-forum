@@ -6,7 +6,7 @@ display: inline-block;
 margin: ${props => props.m || 0}em;
 width:${props => props.w ? props.w+'em' : '100%'};
 .input-words {
-    padding: ${props => props.p || 0 + 'em'};
+    padding: ${props => props.p || 3 + 'em'};
 }
 
 `
