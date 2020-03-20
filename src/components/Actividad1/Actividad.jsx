@@ -50,15 +50,15 @@ const Actividad_base =  ({staticContext, ...props}) => {
 
 
     return (
-        <Container bgImage='./src/bg_actividad1.png' {...props} h={45} w={80} id="area">
+        <Container bgImage='./src/bg_actividad1.png' {...props} h={42} w={70} id="area">
         	
             <div className="" > 
 	            <UiButtonsContainer>
-	                <ButtonUi icon='ilx-ayuda' tooltip='Click on the audio to hear the description, then answer' />
+	                <ButtonUi icon='ilx-ayuda' tooltip='Write about your experience, not less than 60 words' />
 	                <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.href = '/actividad1'} } />
 	            </UiButtonsContainer>
-	            <IRow pt={5} className="text-center">
-	                <ICol py={ 0.5 }>
+	            <IRow pt={3} className="text-center">
+	                <ICol py={ 0.2 }>
 	                    <MainTitle color={Ilex.violeta2} size={1.5}>
 	                    WHAT EXPERIENCES HAVE YOU HAD AT UNIVERSITY? WRITE YOUR EXPERIENCES IN NO LESS THAN 60 WORDS
 	                    </MainTitle>  

@@ -23,6 +23,7 @@ const mistyles = css`
     border-radius: 0.5em;
     text-align: justify;
     text-justify: inter-word;
+    color: ${Ilex.textos};
 }
 .dnd{
 	width: 100%;

@@ -1,7 +1,7 @@
 import { css } from 'styled-components'
 import Ilex from '../../App/variables'
 const styles = css`
-    .fondo-correo{
+.fondo-correo{
     width: 58.06em;
     height: 27.125em;
     background-image: url(./src/bg-mail.png);
@@ -29,6 +29,7 @@ const styles = css`
     padding-left: 14em;
     margin-right: auto;
     margin-left: auto;
+    color: ${Ilex.textos};
 }
 .ml-1{
     &:last-child{
@@ -80,6 +81,12 @@ li {
 }
 .float_left{
     float: right;
+}
+p{
+    color: ${Ilex.textos};
+}
+.check{
+    margin-top: 8.8em;
 }
 `
 

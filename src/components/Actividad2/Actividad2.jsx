@@ -73,7 +73,7 @@ const Actividad2_base = ({staticContext, ...props}) => {
         <Container bgImage='./src/bg_actividad1.png' {...props} h={32} id="area">
             <div className="" > 
                 <UiButtonsContainer>
-                    <ButtonUi icon='ilx-ayuda' tooltip='Click on the audio to hear the description, then answer' />
+                    <ButtonUi icon='ilx-ayuda' tooltip='write about your experiences, not less than 60 words' />
                     <ButtonUi icon='ilx-volver' tooltip='Start Again' onClick={ () => {window.location.href = '/actividad2'} } />
                 </UiButtonsContainer>
                 <IRow pt={1.5} className="text-center">
